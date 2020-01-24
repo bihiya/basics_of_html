@@ -1,0 +1,82 @@
+#name:hover{
+    background:coral;
+
+}
+#salary:hover{
+    background:coral;
+
+}
+.remove_data:hover{
+    background:seagreen;
+    border-radius: 1rem;
+
+}
+.remove_data{
+    background:rgb(35, 129, 184);
+    border-radius: 0rem;
+
+}
+.add-data{
+    background:rgb(35, 129, 184);
+    border-radius: 0rem;
+
+}
+.add-data:hover{
+    background:seagreen;
+    border-radius: 1rem;
+
+}
+img{
+    
+    height:100px;
+    width:100px;
+    float: left;
+    padding: 1.1rem;
+    border-radius:60px;
+    opacity: 1;
+}
+.main_content
+{
+    text-align: center;
+   height: 120px;
+  background-color: springgreen;
+  opacity: 0.7;
+  position: sticky;
+}
+#emp:hover{
+    color: red;
+ text-shadow: royalblue;
+   
+   
+   
+    
+}
+form{
+    margin: 30px 0;
+}
+form input, button{
+    padding: 12px;
+    text-shadow: blueviolet;
+    text-decoration: darkcyan;
+    
+}
+table{
+    width: 100%;
+    margin-bottom: 10px;
+    /* border-collapse: collapse; */
+    /* background: url("./ver.png.png") no-repeat center center/cover ; */
+   /* background-repeat: no-repeat; */
+   /* background: url("./ver.png.png") center no-repeat; */
+   /* opacity: 1 ; */
+   /* position:fixed; */
+   background: cyan;
+   
+   
+}
+table, th, td{
+    border: 1px solid #470e92;
+}
+table th, table td{
+    padding: 10px;
+    text-align: left;
+}

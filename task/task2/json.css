@@ -1,0 +1,40 @@
+#tb{
+    
+    background:lightcoral;
+    border: 1px solid #470e92;
+}
+table{
+    width: 100%;
+    margin-bottom: 10px;
+    /* border-collapse: collapse; */
+    /* background: url("./ver.png.png") no-repeat center center/cover ; */
+   /* background-repeat: no-repeat; */
+   /* background: url("./ver.png.png") center no-repeat; */
+   /* opacity: 1 ; */
+   /* position:fixed; */
+   background:red;
+   font-family: Raleway;
+   width: 60%;
+   height: 700px;
+   /* border-radius: 3rem; */
+   border-collapse: separate;
+   background-color: green;
+   text-align: center;
+   align-content: center;
+   border: 1px solid #470e92;
+   
+   
+}
+table, th, td{
+    border: 1px solid #470e92;
+}
+table th, table td{
+    padding: 10px;
+    text-align: left;
+}
+.add-data{
+    color: darkblue;
+    size: 10px;
+    border-radius: 2rem;
+    background: darkgoldenrod;
+}
