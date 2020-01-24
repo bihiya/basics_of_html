@@ -1,0 +1,36 @@
+body{
+    align-self: auto;
+    text-emphasis: none;
+    text-align: centre;
+}
+#first {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    text-align: center;
+    background-color: violet;
+    /* width: 600px; */
+    background-image: url(./bjp.png);
+    border: 3px;
+}
+#second {
+    font-family: Arial, Helvetica, sans-serif;
+    border:3px;
+    margin: auto;
+    background-color: tomato;
+    text-align: center;
+
+    color: red;
+    font-size: 20px;
+    font-style:italic;
+    width: 600px;
+    background-image: url(./congress.png);
+
+}
+#third {
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    text-align: center;
+    background-color: navy;
+    background-image: url(./rjd.jpg);
+    width: 600px;
+}

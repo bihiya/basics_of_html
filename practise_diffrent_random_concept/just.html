@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<script>
+    function add()
+    {
+      var  n=document.getElementById("n1").value;
+      var  m=document.getElementById("n2").value;
+      var i,j;
+      var pa=" ";
+      for( i=1;i<=10;i++)
+      {
+      document.writeln(n*i);
+     
+        
+       
+
+      }
+     
+    }
+    function task(i) { 
+  setTimeout(function() { 
+      // Add tasks to do 
+  }, 2000 * i); 
+} 
+</script>
+<style>
+    .main{
+        color: seagreen;
+        background: slateblue;
+        align-self: center;
+        margin: 0 0.25px;
+        padding: 2rem;
+    }
+    #btn
+    {
+        background: red;
+        border-radius: 10px;
+    }
+    #n1 
+    {
+        background: red;
+        border-radius: 10px;
+        background: cyan;
+    }
+    #n2 
+    {
+        background: red;
+        border-radius: 10px;
+        background: cyan;
+    }
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="main">
+        <div id="input">
+            <label for="n1"><h1>first</h1></label>
+            <input type="text" id="n1"><br>
+         <label for="n2"><h1>second</h1></label>
+           <input type="text" id="n2"><br>
+         <button id="btn" onclick="add()">calculate</button><br>
+        </div>
+        <div id="output">
+          <p id="ans"></p>
+        </div>
+    </div>
+</body>
+</html>

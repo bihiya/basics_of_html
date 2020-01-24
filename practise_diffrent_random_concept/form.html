@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     
+    <style>
+        #pic{
+            width=100px;
+            size: 0ch;
+        }
+        .ppp
+        {
+            /* width: 1000px; */
+            height: 5000px;
+            font-size: 25px;
+        }
+        body {
+            height: 100vh;
+            
+          margin: auto;
+          width: 60%;
+          border: 3px solid #73AD21;
+          padding: 50px;
+          font-size: 1em;
+          background: linear-gradient(red,pink);
+        }
+        </style>
+    <title>company registration form</title>
+   
+
+  </head>
+  <body>
+    <img id="pic" src="ver.png.png" alt="not found"  align="middle" width="50">
+      <h1 al>Versa Networks </h1>
+    
+    <div id="center" >
+     
+        
+        <!-- <h1>Register page</h1>
+        <p>basics of html</p> -->
+      
+      </div>
+      <!-- <form action="/"> -->
+        <div>
+        
+          <h2>Register here</h2>
+        </div>
+        <div class="ppp" >
+            <!-- <form > -->
+                <fieldset>
+                    <legend>fill. the form</legend>
+                <label >Name</label><br>
+            
+          <input  type="text" name="name" placeholder="Full name" id="name"><br>
+          <label >Email</label><br>
+          <input type="email" name="name" placeholder="Email" id="email"><br>
+          <label >Contact no.<label><br>
+          <input type="text" name="name" placeholder="Phone number" id="mobile"><br>
+          <label >Password</label><br>
+
+          <input type="password" name="name" placeholder="Password" id="password"><br>
+          <label >Employee Type</label><br>
+          <select >
+         
+            <option value="test" id="tester"> Tester</option>
+            <option value="network" id="network">network engineer</option>
+            <option value="mm" id="multimedia">multimedia engineer</option>
+            <option value="software" id="software">software engineer</option>
+            <option value="system" id="system">system engineer</option>
+          </select>
+          <div>
+               <label >gender</label>
+              <input type="radio" name="gender" value="male" id="male" checked> Male
+              <input type="radio" name="gender" value="female" id="female"> Female
+              <input type="radio" name="gender" value="other" id="other"> Other <br>
+         
+        </div>
+    </fieldset>
+    <button type="submit" onclick="myFunction()">Submit</button>
+    <!-- </form> -->
+
+        </div>
+        <br>
+        
+     
+    
+      <a href="https://www.versa-networks.com/">click here to visit official site</a>
+    </div>
+    <script>
+            function myFunction()
+        {
+            var empdata={
+            ename:" ",
+            eemail:" ",
+            emobile:" ",
+            epassword:" "
+        };
+            alert("hi");
+        var name= document.getElementById("name").value;
+        var email= document.getElementById("email").value;
+        var mobile= document.getElementById("mobile").value;
+        var password= document.getElementById("password").value;
+        //    var name= document.getElementById("name");
+        //    var name= document.getElementById("name");
+        // alert(name);
+        // alert(email);
+        // alert(mobile);
+        // alert(password);
+        //document.write("Name="+name+"<br>"+"Mobile="+mobile+"<br>"+"Email="+email+"<br>"+"password="+password+"<br>");
+      
+        empdata.ename=name;
+        empdata.eemail=email;
+        empdata.emobile=mobile;
+        empdata.epassword=password;
+        console.log(empdata);
+        // console.log(empdata.eemail);
+        // console.log(empdata.emobile);
+        // console.log(empdata.epassowrd);
+
+
+        }
+</script>
+  </body>
+</html>
